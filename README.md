@@ -57,7 +57,7 @@ Learn more about this CLI and MyST Markdown at: https://jupyterbook.org/stable
 
 ```bash
 # github pagesデプロイ向けの actions workflowの追加
-jupyter book init --write-toc --gh-pages
+jupyter book init --gh-pages
 ```
 
 ```
@@ -101,7 +101,7 @@ jupyter book init --write-toc --gh-pages
 ![github-settings](imgs/github-settings.png)
 
 ```bash
-# TOC設定の追加 (README.mdが含まれないようにする)
+# TOC設定の追加
 jupyter book init --write-toc
 ```
 
@@ -130,7 +130,9 @@ The “root” of a site is the page displayed when someone browses to the index
 5. The first .tex file found alphabetically
 6. The first .ipynb file found alphabetically
 
-## 設定ファイル
+## Settings
+
+- See [Exporting overview](https://mystmd.org/guide/documents-exports)
 
 ```yaml
 # See docs at: https://mystmd.org/guide/frontmatter

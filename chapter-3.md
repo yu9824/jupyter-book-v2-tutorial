@@ -1,3 +1,3 @@
 # Chapter 3
 
-チャプターのトップページ
+Chapter top page
